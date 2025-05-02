@@ -56,6 +56,10 @@ app.post("/api/v1/CallLogPush", async (req, res) => {
   }
 });
 
+app.get("/", (req, res) => {
+  res.send("📡 Knowlarity API is live. Use POST /api/v1/CallLogPush");
+});
+
 app.listen(3000, () => {
   console.log("✅ Server running at http://localhost:3000");
 });
