@@ -2,7 +2,6 @@
     "call_uuid": "abc-123",
     "call_date": "2025-04-01T07:03:00.000Z",
     "call_time": "16:00",
-    "customer_status": "Connected",
     "customer_number": "+918860068808",
     "call_number": "xyz-789",
     "call_duration": "103",
