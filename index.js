@@ -28,7 +28,6 @@ app.post("/api/v1/CallLogPush", async (req, res) => {
             call_uuid: payload.call_uuid || "",
             call_date: payload.call_date || "",
             call_time: payload.call_time || "",
-            customer_status: payload.customer_status || "",
             customer_number: payload.customer_number || "",
             call_number: payload.call_number || "",
             call_duration: payload.call_duration ? Number(payload.call_duration) : 0,
